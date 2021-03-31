@@ -1,0 +1,349 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*------------------------------Home page code-------------------------------------------------*/
+
+.wrapper
+{
+    height: 700px;
+    width: 1500px;
+    background-color: whitesmoke;
+}
+header
+{
+    height: 150px;
+    width: 1500px;
+    background-color: black;
+}
+section
+{
+    height:500px ;
+    width:1500px ;
+    background-color: gold;
+}
+footer
+{   height:120px ;
+    width:1500px ;
+    background-color:black;
+
+}
+
+li a
+{
+color: white;
+text-decoration: none;
+}
+nav
+{
+    float: right;
+    word-spacing: 30px;
+	padding: 20px;
+}
+nav li
+{
+    display: inline-block;
+    line-height: 80px;
+}
+section .sec_img
+{
+	height: 550px;
+	margin-top: 0px;
+	background-image: url("images/1.jpg");
+}
+	
+.box
+{
+	height: 220px;
+	width: 450px;
+	background-color: #030002;
+	margin: 70px auto;
+	opacity: .6;
+	color: white;
+}
+
+.footer-nav li 
+{  
+    display: inline-block;
+    margin-left: 340px;
+    padding: 0.5cm;
+}
+
+.footer-nav img 
+{
+    width: 30px;
+    height: 30px;
+}
+
+/*-------------------------------Student login page code----------------------*/
+
+.log_img
+{
+    height: 600px;
+	margin-top: 0px;
+	background-image: url("images/3.jpg")  
+}
+.box1
+{
+    height: 300px;
+    width: 400px;
+    background-color: gray;
+    margin: 70px auto;
+    opacity: .7;
+    color: white;
+    padding: 20px;
+}
+form .login
+{
+    margin: auto 45px;
+}
+input
+{
+    height: 30px;
+    width: 300px;
+}
+
+/*-------------------New Student Registration code---------------*/
+
+.reg_img
+{
+    height: 600px;
+	margin-top: 0px;
+	background-image: url("images/4.png")  
+}
+.box2
+{
+    height: 480px;
+    width: 400px;
+    background-color: gray;
+    margin: 30px auto;
+    opacity: .7;
+    color: white;
+    padding: 20px;
+}
+
+/*-----------------------------Forgot Password--------------------------*/
+.forg_img
+{
+    height: 600px;
+	margin-top: 0px;
+	background-image: url("images/4.png")  
+}
+.box5
+{
+    height: 480px;
+    width: 400px;
+    background-color: gray;
+    margin: 30px auto;
+    opacity: .7;
+    color: white;
+    padding: 20px;
+}
+
+/*-----------------------Books list----------------------*/
+
+.books
+{
+    height: 650px;
+	margin-top: 0px;
+	background-image: url("images/3.jpg")  
+}
+
+.filter
+{
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 1;
+        
+       opacity: .7;
+       }
+       table{
+        position: absolute;
+        z-index: 2;
+        left: 50%;
+        top: 450px;
+        transform: translate(-50%,-50%);
+        width: 60%; 
+        border-collapse: collapse;
+        border-spacing: 0;
+        box-shadow: 0 2px 15px rgba(64,64,64,.7);
+        border-radius: 12px 12px 0 0;
+        overflow: hidden;
+       
+       }
+       td , th{
+        padding: 15px 20px;
+        text-align: center;
+        
+       
+       }
+       th{
+        background-color:black;
+        color: #fafafa;
+        font-family: 'Open Sans',Sans-serif;
+        font-weight: 200;
+        text-transform: uppercase;
+       
+       }
+       tr{
+        width: 100%;
+        background-color: #fafafa;
+        font-family: 'Montserrat', sans-serif;
+       }
+       tr:nth-child(even){
+        background-color: #eeeeee;
+ }
+
+ /*--------------------------Book issue----------------------------*/
+
+ .box4
+{
+    height: 300px;
+    width: 400px;
+    background-color: grey;
+    margin: 70px auto;
+    opacity: .7;
+    
+    padding: 20px;
+}
+section .issue_img
+{
+	height: 550px;
+	margin-top: 0px;
+	background-image: url("images/book.jpg");
+}
+
+/*--------------------------Message Box-------------------------------------------------*/
+
+.msg_img
+{
+    height: 600px;
+	margin-top: 0px;
+	background-image: url("images/5.jpg")    
+}
+
+/*----------------------------------Admin page--------------------------------------------------*/
+
+.admin_img
+{
+    height: 600px;
+	margin-top: 0px;
+	background-image: url("Images/21.jpg")      
+}
+.box6
+{
+    height: 380px;
+    width: 400px;
+    background-color:paleturquoise;
+    margin: 70px auto;
+    opacity: .7;
+    
+    padding: 20px;
+}
+
+/*------------------------------------------------------------*/
+
+
+
